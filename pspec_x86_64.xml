@@ -1,0 +1,38 @@
+<PISI>
+    <Source>
+        <Name>obmenu</Name>
+        <Packager>
+            <Name>Nicholas Laramie</Name>
+            <Email>nick65irene@gmail.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>desktop</PartOf>
+        <Summary xml:lang="en">Openbox menu editing made easy</Summary>
+        <Description xml:lang="en">Obmenu is a menu editor designed for openbox. It&apos;s easy to use, allowing to get the most out of the powerful Openbox menu system, while hiding the xml layout from the user.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>obmenu</Name>
+        <Summary xml:lang="en">Openbox menu editing made easy</Summary>
+        <Description xml:lang="en">Obmenu is a menu editor designed for openbox. It&apos;s easy to use, allowing to get the most out of the powerful Openbox menu system, while hiding the xml layout from the user.
+</Description>
+        <PartOf>desktop</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/obMenu-1.0-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/obxml.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/obxml.pyc</Path>
+            <Path fileType="data">/usr/share/obmenu</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-04-04</Date>
+            <Version>1.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Nicholas Laramie</Name>
+            <Email>nick65irene@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
